@@ -1,0 +1,47 @@
+# Ignorer les fichiers générés par Eclipse
+/.settings/
+/.project
+/.classpath
+/.class
+
+# Ignorer les fichiers générés par le système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de compilation
+/bin/
+/target/
+/out/
+
+# Ignorer les fichiers générés par JavaDoc
+/doc/
+/docs/
+
+# Ignorer les fichiers logs
+*.log
+
+# Ignorer les fichiers spécifiques à Maven (si applicable)
+dependency-reduced-pom.xml
+build.log
+release.properties
+target/
+
+# Ignorer les fichiers Markdown temporaires ou locaux
+*.md~
+
+# Ignorer les fichiers d’archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.bak
+*.swp
+
+# Ignorer les fichiers de sauvegarde générés par certains éditeurs
+*.~*
+
+# Ignorer le fichier d'environnement de configuration (si utilisé)
+.env
