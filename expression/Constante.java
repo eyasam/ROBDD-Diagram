@@ -26,5 +26,13 @@ public class Constante extends Expression {
 	public Expression simplifier(){
 		return this;
 	}
+	
+	@Override
+	public String toString() {
+	    return b ? "true" : "false";
+	}
+
+	
+	
 
 }

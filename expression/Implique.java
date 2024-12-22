@@ -41,5 +41,10 @@ public class Implique extends Expression {
 			return new Constante(true);
 		return this;
 	}
+	
+	@Override
+	public String toString() {
+	    return "("+e1.toString() + " => " + e2.toString()+")" ;
+	}
 
 }

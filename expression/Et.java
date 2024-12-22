@@ -38,4 +38,10 @@ public class Et extends Expression {
 			return new Constante(false);
 		return this;
 	}
+	
+	@Override
+	public String toString() {
+	    return "("+ e1.toString() + " ∧ " + e2.toString()+")" ;
+	}
+
 }

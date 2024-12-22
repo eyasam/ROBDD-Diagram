@@ -31,4 +31,8 @@ public class Non extends Expression {
 		return this;
 	}
 	
+	@Override
+	public String toString() {
+	    return "¬ ("+ e.toString()+")";
+	}
 }

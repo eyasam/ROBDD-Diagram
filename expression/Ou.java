@@ -39,5 +39,9 @@ public class Ou extends Expression {
 		return this;
 	}
 
+	@Override
+	public String toString() {
+	    return "("+ e1.toString() + "∨" + e2.toString()+")";
+	}
 
 }

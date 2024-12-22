@@ -1,6 +1,8 @@
 package robdd;
 
-//représente un noeud d'un ROBDD
+/**
+ * Repr&eacute;sente un n&oelig;ud dans un ROBDD
+ */
 public class Noeud_ROBDD {
 	//index du noeud
 	private final int id;
@@ -10,6 +12,13 @@ public class Noeud_ROBDD {
 	private int fg, fd;
 
 	private static int currentid = 2;
+	
+    /**
+     * R&eacute;initialise le compteur des IDs des noeuds &agrave; sa valeur initiale (2).
+     */
+	public static void resetCurrentId() {
+	    currentid = 2; 
+	}
 
 	//constructeur
 	public Noeud_ROBDD(String name, int fg, int fd) {
