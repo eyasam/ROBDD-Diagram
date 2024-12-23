@@ -13,6 +13,8 @@ Thumbs.db
 /target/
 /out/
 
+# Ignore les fichiers de classe compilés
+**/*.class
 
 
 # Ignorer les fichiers logs
