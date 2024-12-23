@@ -13,9 +13,7 @@ Thumbs.db
 /target/
 /out/
 
-# Ignorer les fichiers générés par JavaDoc
-/doc/
-/docs/
+
 
 # Ignorer les fichiers logs
 *.log
