@@ -30,5 +30,11 @@ La documentation JavaDoc générée est disponible dans le dossier `docs`. Pour 
 
 **Note :** Les commentaires situés dans le code **ne sont pas directement lisibles dans les fichiers source** mais sont liés à la documentation JavaDoc. **Nous recommandons d’utiliser la JavaDoc générée pour une compréhension optimale.**
 
+## Générer la documentation JavaDoc
+Pour générer ou régénérer la documentation JavaDoc, exécutez la commande suivante dans votre terminal :
+```bash
+javadoc -private -d docs .\src\Main.java .\robdd\ROBDD.java .\expression\Expression.java .\robdd\Noeud_ROBDD.java .\expression\Atome.java .\expression\Equiv.java
+```
+
 ## Auteur
 Ce TP a été réalisé par **Eya Sammari** et **Mey Cherif**. Un effort particulier a été consacré à la rédaction de la documentation JavaDoc pour rendre chaque méthode compréhensible et utile dans le contexte des exercices.
