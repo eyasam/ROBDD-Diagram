@@ -32,7 +32,7 @@ La documentation JavaDoc générée est disponible dans le dossier `docs`. Pour 
 
 ## Générer la documentation JavaDoc
 Pour générer ou régénérer la documentation JavaDoc, exécutez la commande suivante dans votre terminal :
-```bash
+``` bash
 javadoc -private -d docs .\src\Main.java .\robdd\ROBDD.java .\expression\Expression.java .\robdd\Noeud_ROBDD.java .\expression\Atome.java .\expression\Equiv.java
 ```
 
