@@ -28,7 +28,8 @@ La documentation JavaDoc générée est disponible dans le dossier `docs`. Pour 
 3. **Package `expression`** :
    - Explorez les classes `Expression`, `Atome`, et `Equiv` pour comprendre la manipulation des expressions booléennes, leur simplification, et leur évaluation.
 
-**Note :** Les commentaires situés dans le code **ne sont pas directement lisibles dans les fichiers source** mais sont liés à la documentation JavaDoc. **Nous recommandons d’utiliser la JavaDoc générée pour une compréhension optimale.**
+**Note :** Les commentaires situés dans le code **ne sont pas directement lisibles dans les fichiers source** mais sont liés à la documentation JavaDoc.
+**Nous recommandons d’utiliser la JavaDoc générée pour une compréhension optimale.**
 
 ## Générer la documentation JavaDoc
 Pour générer ou régénérer la documentation JavaDoc, exécutez la commande suivante dans votre terminal :
